@@ -99,13 +99,15 @@ a {
   padding: 10px;
   position: relative;
   left: 60px;
-  z-index: 2;
+  
 }
 
 .info-borde {
   position: absolute;
-  width: 600px;
-  height: 550px;
+  width: 500px;
+  height: 480px;
+  top: 250px;
+  right: 600px;
   border: 18px solid #7572ff;
   box-sizing: border-box;
 }
@@ -114,7 +116,8 @@ a {
   width: 500px;
   height: 725px;
   position: relative;
-  left: 40px;
+  left: 120px;
+  bottom: 100px; 
 }
 
 .title-main {
