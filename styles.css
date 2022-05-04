@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Orbitron:wght@400;422;600;900&family=Poppins:ital,wght@0,500;0,600;1,300&family=Quicksand:wght@300&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/bg-image.png);
+}
+
+.section-main {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  margin-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+}
+
+.header-contacto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info p {
+  display: inline;
+}
+
+.menu-header {
+  margin-top: 10px;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.menu-header ul {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.menu-header li {
+  display: inline-block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #232233;
+  padding: 20px;
+}
+
+.logo-apolly {
+  width: 200px;
+  height: 90px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.logo-apolly img {
+  position: relative;
+  top: 30%;
+}
+
+.btn-download {
+  padding: 8px;
+  background-color: #5956e9;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.container-main {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.info-main {
+  background-color: #ffffff;
+  width: 500px;
+  height: 480px;
+  padding: 10px;
+  position: relative;
+  left: 60px;
+  z-index: 2;
+}
+
+.info-borde {
+  position: absolute;
+  width: 600px;
+  height: 550px;
+  border: 18px solid #7572ff;
+  box-sizing: border-box;
+}
+
+.img-main img {
+  width: 500px;
+  height: 725px;
+  position: relative;
+  left: 40px;
+}
+
+.title-main {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #5956e9;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.info-main p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c72;
+  margin-bottom: 20px;
+}
+
+.download-h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #232233;
+}
+
+.about-section {
+  background-color: #fff;
+  width: 100%;
+}
+
+.container-about {
+  margin-top: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+.title-about {
+  text-align: center;
+  font-family: "Josefin Sans";
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #232233;
+  margin-top: 60px;
+}
+
+.about-section h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6c6c72;
+  margin-top: 40px;
+}
+
+.container-imagen-lista {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.container-lista {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.card-lista {
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+
+.container-lista p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #6c6c72;
+}
+
+.container-lista h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #232233;
+  display: inline;
+  margin-left: 20px;
+}
+
+.features-section {
+  background-image: url(img/bg-image.png);
+  width: 100%;
+}
+
+.container-features {
+  width: 80%;
+  margin: auto;
+}
+
+.title-features {
+  margin-top: 70px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container-features p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
