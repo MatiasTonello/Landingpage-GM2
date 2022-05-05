@@ -158,12 +158,12 @@ a {
 }
 
 .container-about {
-  margin-top: 60px;
+  padding: 80px;  
   width: 80%;
   margin: auto;
 }
 
-.title-about {
+.title-black {
   text-align: center;
   font-family: "Josefin Sans";
   margin-top: 60px;
@@ -174,9 +174,10 @@ a {
   text-transform: uppercase;
   color: #232233;
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
-.about-section h4 {
+.subtitle-black {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -184,7 +185,9 @@ a {
   line-height: 24px;
   text-align: center;
   color: #6c6c72;
-  margin-top: 40px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .container-imagen-lista {
@@ -206,7 +209,7 @@ a {
   border-radius: 10px;
   width: 100%;
   margin-bottom: 10px;
-  padding: 40px;
+  padding: 35px;
 }
 
 .container-lista p {
@@ -242,6 +245,7 @@ a {
 
 .title-features {
   margin-top: 70px;
+  margin-bottom: 40px;
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
@@ -256,8 +260,107 @@ a {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+  width: 60%;
+  margin: auto;
+}
+
+.free-chat{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.free-chat h3{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+
+color: #FFFFFF;
+}
+
+.featuring-central{
+    display: flex;
+    justify-content: column;
+    flex-wrap: no-wrap;
+    
+    width: 375px;
+    height: 812px;
+}
+
+.segundo{
+  
+    
+}
+
+.primer{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.freaturing-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+    height: 171px;
+}
+
+
+
+.freaturing-cards h4{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.freaturing-cards p{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.img-feature{
+    filter: invert(1);
+    width:  28.31px;
+    height: 50px;
+    margin-bottom: 10px;
+   
+}
+
+.our-team-section{
+    width: 100%;
+    height: 774px;
+    background-color: #FFFFFF;
+}
+
+.container-section{
+    padding: 80px;  
+    width: 80%;
+    margin: auto;
 }
