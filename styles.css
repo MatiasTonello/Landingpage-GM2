@@ -355,7 +355,6 @@ color: #FFFFFF;
 
 .our-team-section{
     width: 100%;
-    height: 774px;
     background-color: #FFFFFF;
 }
 
@@ -363,4 +362,78 @@ color: #FFFFFF;
     padding: 80px;  
     width: 80%;
     margin: auto;
+}
+
+
+.container-cards-team{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+.card-team{
+    margin-left: 10px;
+    width: 100%;
+    height: 580px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-card{
+    margin-top: 40px;
+    width: 198px;
+    height: 198px;  
+}
+
+.container-cards-team h3{
+    font-family: 'Josefin Sans';
+    margin-top: 60px;
+font-style: normal;
+font-weight: 700;
+font-size: 27.25px;
+line-height: 47px;
+text-transform: uppercase;
+color: #232233;
+}
+
+.container-cards-team h4{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color: #6C6C72;
+margin-bottom: 40px;
+}
+
+.container-cards-team p{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #6C6C72;
+}
+
+.card-redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.icon-red-social{
+    margin: 20px;
+    align-content: flex-end;
+}
+
+.separador-red-social{
+    border: 0.5px solid #6C6C72;
 }
