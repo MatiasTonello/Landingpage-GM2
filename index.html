@@ -5,94 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
-    <div class="section-main">
+    <main>
+        <section class="container-all">
       <header>
-
         <!-- Primer header con info mail y redes-->
         <div class="header-contacto">
-          <div class="header-info">
-            <img src="img/mail.png" alt="" />
+          <div class="header__info">
+            <img src="./assets/img/mail.png" alt="" />
             <p>info@youremail.com</p>
-            <img src="img/telefono.png" alt="" />
+            <img src="./assets/img/telefono.png" alt="" />
             <p>(480)555-0103</p>
           </div>
           <div>
-            <img src="img/social-icons.png" alt="" />
+            <img src="./assets/img/social-icons.png" alt="" />
           </div>
         </div>
 
         <!-- Segundo header con el navbar-->
-        <nav class="menu-header">
+        <nav class="header__menu">
           <div>
             <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">FEATURES</a></li>
+              <li><a class="header__link" href="#">HOME</a></li>
+              <li><a class="header__link" href="#">ABOUT</a></li>
+              <li><a class="header__link" href="#">FEATURES</a></li>
             </ul>
           </div>
-          <div class="logo-apolly">
-            <img src="./img/logo-apolly.png" alt="" />
+          <div class="header__centerlogo">
+            <img class="header__logo "src="./assets/img/logo-apolly.png" alt="" />
           </div>
           <div>
             <ul>
-              <li><a href="#">TEAM</a></li>
-              <li><a href="#">CONTACTO</a></li>
-              <li><a href="#" class="btn-download">DOWNLOAD</a></li>
+              <li><a class="header__link" href="#">TEAM</a></li>
+              <li><a  class="header__link"href="#">CONTACTO</a></li>
+              <li><a class="header__link header__button" href="#" >DOWNLOAD</a></li>
             </ul>
           </div>
         </nav>
       </header>
-
+         </section>
 
       <!--Seccion principal con imagenes y texto -->
-      <main>
-        <div class="info-borde"></div>
-        <div class="container-main">
-          <div class="info-main">
-              
-            <h1 class="title-main">A great app makes your life better</h1>
+      
+      <section>
+        <div class="border__hero"></div>
+        <div class="container__hero">
+          <div class="hero">
+            <h1 class="hero__title">A great app makes your life better</h1>
 
-            <p>
+            <p class="hero__p">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
 
-            <h3 class="download-h3">Download App Now</h3>
-            <img src="./img/downloadgoogle.png" alt="" />
-            <img src="./img/downloadapp.png" alt="" />
+            <h3 class="hero__h3">Download App Now</h3>
+            <img src="./assets/img/downloadgoogle.png" alt="" />
+            <img src="./assets/img/downloadapp.png" alt="" />
           </div>
-          <div class="img-main">
-            <img src="./img/telefono-main.png" alt="" />
+          <div class="hero__img">
+            <img src="./assets/img/telefono-main.png" alt="" />
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+        </section>
 
 
     <!-- Seccion about -->
-    <div class="about-section">
-      <div class="container-about">
-        <h2 class="title-black">ABOUT OUR APP</h2>
+    <section class="section-white">
+      <div class="container-all">
+        <h2 class="title_black">ABOUT OUR APP</h2>
 
-        <h4 class="subtitle-black">
+        <p class="subtitle_black">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc
           ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus
           amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
           tempor, ac nunc libero urna, feugiat.
-        </h4>
+        </p>
 
-        <div class="container-imagen-lista">
+        <div class="container__imagenabout">
           <div>
-            <img src="./img/android-about.svg" alt="" />
+            <img src="./assets/img/android-about.svg" alt="" />
           </div>
 
-          <div class="container-lista">
-            <div class="card-lista">
-              <img src="./img/about.svg" alt="" />
+          <div class="container__listabout">
+            <div class="card__lista">
+              <img src="./assets/img/about.svg" alt="" />
               <h3>CREATIVE DESIGN</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -100,8 +100,8 @@
                 Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
               </p>
             </div>
-            <div class="card-lista">
-              <img src="./img/about.svg" alt="" />
+            <div class="card__lista">
+              <img src="./assets/img/about.svg" alt="" />
               <h3>EASY TO USE</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -109,8 +109,8 @@
                 Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
               </p>
             </div>
-            <div class="card-lista">
-              <img src="./img/about.svg" alt="" />
+            <div class="card__lista">
+              <img src="./assets/img/about.svg" alt="" />
               <h3>BEST USER EXPERIENCE</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -121,123 +121,131 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
 
     <!-- Sección de features -->
-    <div class="features-section">
-        <div class="container-features">
-            <h2 class="title-features">APP FEATURES</h2>
+    <section class="section-royalblue">
+        <div class="container-all">
+            <h2 class="features__title">APP FEATURES</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+            <p class="features__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
 
-            <div class="free-chat">
-                <img src="./img/chat.svg" alt="">
-                <h3>full free chat</h3>
+            <div class="features__chat">
+                <img src="./assets/img/chat.svg" alt="">
+                <h5>full free chat</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
-            <div class="featuring-central">
-                <article class="primer">
-                    <div class="freaturing-cards">
-                        <img class="img-feature" src="./img/featuring-1.svg" alt="">
+            <div class="card__container">
+                <article class="card__side">
+                    <div class="card__content">
+                        <img class="card__img" src="./assets/img/featuring-1.svg" alt="">
                         <h4>UNLIMITER FEATURES</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="freaturing-cards">
-                        <img class="img-feature" src="./img/featuring-2.svg" alt="">
+                    <div class="card__content">
+                        <img class="card__img" src="./assets/img/featuring-2.svg" alt="">
                         <h4>UNLIMITER FEATURES</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </article>
-                <article class="segundo">
-                    <img  src="./img/featuring-central.svg" alt="">
+                <article>
+                    <img  src="./assets/img/featuring-central.svg" alt="">
                 </article>
-                <article class="primer">
-                    <div class="freaturing-cards">
-                        <img class="img-feature" src="./img/featuring-3.svg" alt="">
+                <article class="card__side">
+                    <div class="card__content">
+                        <img class="card__img" src="./assets/img/featuring-3.svg" alt="">
                         <h4>UNLIMITER FEATURES</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="freaturing-cards">
-                        <img class="img-feature" src="./img/featuring-4.svg" alt="">
+                    <div class="card__content">
+                        <img class="card__img" src="./assets/img/featuring-4.svg" alt="">
                         <h4>UNLIMITER FEATURES</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </article>
             </div>
 
-            <div class="free-chat">
-                <img class="img-feature" src="./img/Icons/male-telemarketer.svg" alt="">
-                <h3>24/7 SUPPORT BY REAL PEOPLE</h3>
+            <div class="features__chat">
+                <img class="card__img" src="./assets/img/Icons/male-telemarketer.svg" alt="">
+                <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
 
 
-    </div>
+    </section>
 
     <!--Seccion de our team-->
-    <div class="our-team-section">
-        <div class="container-section">
-            <h2 class="title-black">OUR REATIVE TEAM</h2>
-            <h4 class="subtitle-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</h4>
+    <section class="section-white">
+        <div class="container-all">
+            <h2 class="title_black">OUR REATIVE TEAM</h2>
+            <p class="subtitle_black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
 
-
-            <div class="container-cards-team">
-                <article class="card-team">
-                    <img class="img-card" src="./img/carla.svg" alt="">
+            <div class="container__card">
+                <article class="card-people">
+                    <img class="card-people__img" src="./assets/img/carla.svg" alt="">
                     <h3>CARLA PRESS</h3>
                     <h4>APP DEVELOPER</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-redes-sociales">
-                        <img class="icon-red-social" src="./img/card-fb.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-ig.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-tw.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-yt.svg" alt="">
+                    <div class="card-socialmedia">
+                        <img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt="">
                     </div>
                 </article>
-                <article class="card-team">
-                    <img class="img-card" src="./img/craig.svg" alt="">
+                <article class="card-people">
+                    <img class="card-people__img" src="./assets/img/craig.svg" alt="">
                     <h3>CRAIG GOUSE</h3>
                     <h4>UI/UX DESIGNER</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-redes-sociales">
-                        <img class="icon-red-social" src="./img/card-fb.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-ig.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-tw.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-yt.svg" alt="">
+                    <div class="card-socialmedia">
+                        <img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt="">
                     </div>
                 </article>
-                <article class="card-team">
-                    <img class="img-card" src="./img/joselyn.svg" alt="">
+                <article class="card-people">
+                    <img class="card-people__img" src="./assets/img/joselyn.svg" alt="">
                     <h3>JOSELYN SEPTIMUS</h3>
                     <h4>WEBSITE DEVELOPER</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-redes-sociales">
-                        <img class="icon-red-social" src="./img/card-fb.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-ig.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-tw.svg" alt="">
-                        <img class="icon-red-social" src="./img/card-yt.svg" alt="">
+                    <div class="card-socialmedia">
+                        <img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt="">
+                        <span class="card__separator">|</span>
+                        <img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt="">
                     </div>
                 </article>
             </div>
 
-            <div class="info-about-section">
-                <div class="footer-contact-item">
-                    <div><img src="img/mail.png" alt=""></div>            
+            <div class="container__cardinfo">
+                <div class="card__moreinfo">
+                    <div><img src="./assets/img/mail.png" alt=""></div>            
                     <p>info@youremail.com</p>
                 </div>
-                <div class="footer-contact-item">
-                    <div><img src="img/telefono.png" alt=""></div>
+                <div class="card__moreinfo">
+                    <div><img src="./assets/img/telefono.png" alt=""></div>
                     <p>+880 321 655 9985</p>
                 </div>
                    
                
             </div>
         </div>
-    </div>
-
+    </section>
+</main>
     <footer>
         <div class="footer-container">
            <div class="footer__contenedor">
@@ -245,14 +253,14 @@
                 <h2 class="footer__h2">
                     LOGO
                 </h2>
-                <h4 class="footer__h4">
+                <p class="footer__p">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-                </h4>
+                </p>
                 <div class="footer__icons">
-                    <img src="img/card-fb.svg" alt="">
-                    <img src="img/card-ig.svg" alt="">
-                    <img src="img/card-tw.svg" alt="">
-                    <img src="img/card-yt.svg" alt="">
+                    <img src="./assets/img/card-fb.svg" alt="">
+                    <img src="./assets/img/card-ig.svg" alt="">
+                    <img src="./assets/img/card-tw.svg" alt="">
+                    <img src="./assets/img/card-yt.svg" alt="">
                 </div>
             </div>
 
@@ -260,31 +268,31 @@
                 <h2 class="footer__h2">
                     QUICK LINK
                 </h2>
-                <h4 class="footer__h4">About</h4>
-                <h4 class="footer__h4">Features</h4>
-                <h4 class="footer__h4">Screenshot</h4>
-                <h4 class="footer__h4">Blog</h4>
+                <p class="footer__p">About</p>
+                <p class="footer__p">Features</p>
+                <p class="footer__p">Screenshot</p>
+                <p class="footer__p">Blog</p>
             </div>
 
             <div class="footer__container--card">
                 <h2 class="footer__h2">
                     News Letter
                 </h2>
-                <h4 class="footer__h4">
+                <p class="footer__p">
                     Subscribe our newsletter to get our latest
                     update & news
-                </h4>
+                </p>
         
                 <div class="footer__search">
                     <input type="search" class="footer__search-input" placeholder="Your email address">
-                    <label class="footer__search-label"><img src="img/search.svg" alt=""></label>
+                    <label class="footer__search-label"><img src="./assets/img/search.svg" alt=""></label>
                 </div>
                 
             </div>
 
         </div> 
 
-        <p class="footer__p">Copyright 2021 .Ojjomedia. All Right Reserved.
+        <p class="footer__copyright">Copyright 2021 .Ojjomedia. All Right Reserved.
         </p>
         </div>
     </footer>

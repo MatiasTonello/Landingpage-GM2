@@ -1,0 +1,90 @@
+/**
+ * ======================================== 
+ * Footer
+ * ========================================
+ */
+  
+  footer {
+    width: 100%;
+    background-color: #232233;
+  }
+  
+  .footer-container {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .footer__contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+  }
+  
+  .footer__h2{
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  
+  .footer__p{
+    margin-bottom: 20px;
+    color: var(--white);
+  }
+  
+  
+  .footer__icons{
+    filter: invert(1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer__container--card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 25%;
+  }
+  
+  .footer__search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__search-input{
+      border: 1px solid #5956e9;
+      border-radius: 6px 6px;
+      outline: none;
+      padding: 6px 12px;
+      height: 50px;
+      width: 369px;
+      position: relative;
+  }
+  
+  .footer__search-label {
+    font-size: 15px;
+    font-weight: 400;
+    height: 46px;
+    padding: 11px 13px;
+    color: white;
+    background-color: #5956e9;
+    border-radius: 6px 6px;
+    position: absolute;
+    right: 185px;
+  }
+  
+  .footer__copyright{
+    font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  }

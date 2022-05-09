@@ -1,0 +1,58 @@
+/**
+ * ======================================== 
+ * Hero section
+ * ========================================
+ */
+.container__hero {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.hero {
+  background-color: #ffffff;
+  width: 500px;
+  height: 480px;
+  padding: 10px;
+  position: relative;
+  left: 60px;
+}
+
+.border__hero {
+  position: absolute;
+  width: 500px;
+  height: 480px;
+  top: 250px;
+  right: 600px;
+  border: 18px solid #7572ff;
+  box-sizing: border-box;
+}
+
+.hero__img img {
+  width: 500px;
+  height: 725px;
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+}
+
+h1 {
+  font-size: 48.83px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: var(--royal-blue);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.hero__p {
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #232233;
+}

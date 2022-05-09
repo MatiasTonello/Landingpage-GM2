@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Orbitron:wght@400;422;600;900&family=Poppins:ital,wght@0,500;0,600;1,300&family=Quicksand:wght@300&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+
+@import 'modules/header.css';
+@import 'core/variables.css';
+@import 'core/global.css';
+@import 'core/typography.css';
+
+/* Modules */
+
+@import 'modules/header1.css';
+@import 'modules/hero.css';
+@import 'modules/about.css';
+@import 'modules/app-features.css';
+@import 'modules/our-reative-team.css';
+@import 'modules/footer.css';

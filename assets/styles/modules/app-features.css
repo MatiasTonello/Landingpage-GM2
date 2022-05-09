@@ -1,0 +1,87 @@
+/**
+ * ======================================== 
+ * App - features section
+ * ========================================
+ */
+ 
+
+  
+  .features__title {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .features__p{
+    text-align: center;
+    color: var(--white);
+    width: 60%;
+    margin: auto;
+  }
+  
+  .features__chat {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .features__chat h5 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .card__container {
+    display: flex;
+    justify-content: column;
+    flex-wrap: no-wrap;
+    width: 375px;
+    height: 812px;
+  }
+  
+  .card__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+    height: 171px;
+  }
+  
+  .card__content h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .card__content p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  
+    color: #ffffff;
+  }
+  
+  .card__img {
+    filter: invert(1);
+    width: 28.31px;
+    height: 50px;
+    margin-bottom: 10px;
+  }

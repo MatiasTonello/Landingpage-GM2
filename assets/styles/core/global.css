@@ -1,0 +1,56 @@
+/**
+ * ======================================== 
+ * Global
+ * ========================================
+ */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-image: url(../../img/bg-image.png);
+	font-family: "Josefin Sans";
+  }
+  
+  main{
+	overflow: hidden;
+  }
+
+.container-all{
+	width: 80%;
+	margin: auto;
+}
+
+.section-royalblue{
+	background-image: url(../../img/bg-image.png);
+	width: 100%;
+	padding-bottom: 100px;
+	color: var(--white);
+}
+
+.section-white{
+	background-color: #fff;
+    width: 100%;
+	padding-bottom: 100px;
+}
+
+.title_black{
+	padding-top: 40px;
+	text-align: center;
+	margin-top: 60px;
+	color: var(--black);
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.subtitle_black{
+	text-align: center;
+    color: var(--grey);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
