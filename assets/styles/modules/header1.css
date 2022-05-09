@@ -51,6 +51,11 @@ header {
   padding: 20px;
 }
 
+.header__link:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
 .header__centerlogo {
   width: 200px;
   height: 90px;
