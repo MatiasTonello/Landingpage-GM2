@@ -56,6 +56,12 @@ header {
   color: blue;
 }
 
+.header__button:hover{
+  background-color: rgb(175, 59, 156);
+
+
+}
+
 .header__centerlogo {
   width: 200px;
   height: 90px;
