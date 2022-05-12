@@ -10,7 +10,7 @@ header {
   color: #fff;
 }
 
-.container-hero {
+.container__header {
   width: 80%;
   margin: auto;
 }
@@ -30,12 +30,13 @@ header {
 
 .header__menu {
   margin-top: 10px;
-  min-width: 343px;
-  max-height: 60px;
+  height: 60px;
+  width: 100%;
+  min-width: 300px;
   background-color: var(--white);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   align-items: center;
@@ -68,8 +69,6 @@ header {
 }
 
 .header__centerlogo {
-  min-width: 100px;
-  min-height: 60px; 
   padding: 40px;
   background: #ffffff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
@@ -80,9 +79,8 @@ header {
 
 }
 
-.header__logo-img img{
-  min-width: 79px;
-  min-height: 12px;
+.header__logo-img {
+  min-width: 90px;
 }
 
 
@@ -90,7 +88,7 @@ header {
   padding: 8px;
   background-color: var(--royal-blue);
   color: var(--white);
-  margin-right: 2px;
+  width: 33%;
 }
 
 .header__iconhamburger{
@@ -100,9 +98,10 @@ header {
 
 .header__btndownload{
   display: none;
-  padding: 20px;
+  padding: 20px 0px;
   min-width: 76px;
   min-height: 34px;
+  width: 33%;
 }
 
 .header__btndownload a{
@@ -118,6 +117,7 @@ header {
 
   .header__menu{
     flex-wrap: nowrap;
+    padding: 10px 0;
   }
 
   .header__first-ul{
@@ -150,7 +150,14 @@ header {
   }
 
   .header__centerlogo{
-    width: 40;
+    width: 33%;
+    padding: 35px;
   }
+
   
+  .header__logo-img img{
+    min-width: 90px;
+  }
+
+
 }
