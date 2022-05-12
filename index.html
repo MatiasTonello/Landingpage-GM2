@@ -15,7 +15,7 @@
     <section class="container-all">
       <header>
         <!-- Primer header con info mail y redes-->
-        <div class="header-contacto">
+        <div class="header__container-contact">
           <div class="header__info">
             <img src="./assets/img/mail.png" alt="" />
             <p>info@youremail.com</p>
@@ -32,22 +32,28 @@
 
         <!-- Segundo header con el navbar-->
         <nav class="header__menu">
-          <div>
-            <ul>
+          <div class="header__firstnav">
+            <ul class="header__first-ul">
               <li><a class="header__link" href="#hero">HOME</a></li>
               <li><a class="header__link" href="#about">ABOUT</a></li>
               <li><a class="header__link" href="#features">FEATURES</a></li>
             </ul>
+            <div class="header__iconhamburger">
+              <i class="fa-solid fa-bars fa-2x"></i>
+            </div>
           </div>
           <div class="header__centerlogo">
-            <img class="header__logo " src="./assets/img/logo-apolly.png" alt="" />
+            <img class="header__logo-img " src="./assets/img/logo-apolly.png" alt="" />
           </div>
           <div>
-            <ul>
+            <ul class="header__second-ul">
               <li><a class="header__link" href="#team">TEAM</a></li>
               <li><a class="header__link" href="#contact">CONTACTO</a></li>
               <li><a class="header__link header__button" href="#">DOWNLOAD</a></li>
             </ul>
+            <div class="header__btndownload">
+                <li><a href="#" class="header__button">DOWNLOAD</a></li>
+            </div>
           </div>
         </nav>
       </header>

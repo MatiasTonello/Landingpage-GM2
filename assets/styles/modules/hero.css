@@ -3,6 +3,8 @@
  * Hero section
  * ========================================
  */
+
+ 
 .container__hero {
   margin-top: 80px;
   display: flex;
@@ -63,10 +65,8 @@ h3 {
 
 
 @media (max-width: 767px) {
-  .download-your-app__row {
+  .container__hero{
     flex-direction: column;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: nowrap;
   }
 }
