@@ -38,6 +38,24 @@
 	padding-bottom: 100px;
 }
 
+.icons__fb i:hover{
+	color:#395694
+}
+  
+.icons__yt i:hover{
+	color: #D72825;
+}
+  
+.icons__tw i:hover{
+	color: #36A7F2;
+}
+
+.icons__ig i:hover{
+	color: #EA7584;
+}
+
+
+
 .title_black{
 	padding-top: 40px;
 	text-align: center;

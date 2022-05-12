@@ -36,11 +36,16 @@ footer {
 
 
 .footer__icons {
-  filter: invert(1);
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
+
+.footer__icons i{
+  color: white;
+}
+
+
 
 
 .footer__container-item {
