@@ -14,7 +14,7 @@
 
 
 
-  .card-people {
+  .ourteam__card {
     margin-left: 10px;
     width: 100%;
     height: 580px;
@@ -33,17 +33,17 @@
      
   }
   
-  .card-people h3 {
+  .ourteam__card h3 {
     margin-top: 60px;
     color: #232233;
   }
   
-  .card-people h4 {
+  .ourteam__card h4 {
     color: #6c6c72;
     margin-bottom: 40px;
   }
   
-  .card-people p {
+  .ourteam__card p {
     text-align: center;
     color: var(--grey);
   }
@@ -64,9 +64,29 @@
   .card__separator{
     font-weight: 700;
     padding: 20px;
-
   }
 
+  .fa-pipe{
+    color: white;
+  }
+
+
+  /* Mobile */
+
+
+  @media (max-width: 767px) {
+
+    .container__card{
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+
+    .ourteam__card{
+      margin-bottom: 50px;
+      height: 100%;
+    }
+  }
   
  
 
