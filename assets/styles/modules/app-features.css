@@ -105,8 +105,12 @@
 
     .features__firstcolumn-card{
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       padding: 20px 0;
+    }
+
+    .features__firstcolumn-card p{
+      text-align: start;
     }
 
     .features__secondcolumn-card{
@@ -125,5 +129,10 @@
 
     .features__centralcard-img img{
       width: 70%;
+    }
+
+    .features__container-card p{
+      text-align: start;
+      width: 100%;
     }
   }
