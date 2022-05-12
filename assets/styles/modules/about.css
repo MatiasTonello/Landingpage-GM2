@@ -54,10 +54,22 @@
   .hero__container{
     flex-direction: column;
     align-items: center;
+
   }
   
   .hero__container-list {
     width: 100%;
     flex-wrap: nowrap;
+  }
+
+  .container__imagenabout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+
+  .container__imagenabout img{
+    max-width: 90%;
   }
 }
