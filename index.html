@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./assets/styles/styles.css" />
-  </head>
-  <body>
-    <main>
-        <section class="container-all">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+</head>
+
+<body>
+  <main>
+    <section class="container-all">
       <header>
         <!-- Primer header con info mail y redes-->
         <div class="header-contacto">
@@ -19,8 +21,11 @@
             <img src="./assets/img/telefono.png" alt="" />
             <p>(480)555-0103</p>
           </div>
-          <div>
-            <img src="./assets/img/social-icons.png" alt="" />
+          <div class="header__redes">
+            <a href="http://facebook.com"><img src="./assets/img/Icons/facebook-header.svg" alt=""></a>
+            <a href="http://instagram.com"><img src="./assets/img/Icons/instagram-header.svg" alt=""></a>
+            <a href="http://twitter.com"><img src="./assets/img/Icons/twitter-header.svg" alt=""></a>
+            <a href="http://youtube.com"><img src="./assets/img/Icons/youtube-header.svg" alt=""></a>
           </div>
         </div>
 
@@ -34,43 +39,43 @@
             </ul>
           </div>
           <div class="header__centerlogo">
-            <img class="header__logo "src="./assets/img/logo-apolly.png" alt="" />
+            <img class="header__logo " src="./assets/img/logo-apolly.png" alt="" />
           </div>
           <div>
             <ul>
               <li><a class="header__link" href="#team">TEAM</a></li>
-              <li><a  class="header__link"href="#contact">CONTACTO</a></li>
-              <li><a class="header__link header__button" href="#" >DOWNLOAD</a></li>
+              <li><a class="header__link" href="#contact">CONTACTO</a></li>
+              <li><a class="header__link header__button" href="#">DOWNLOAD</a></li>
             </ul>
           </div>
         </nav>
       </header>
-         </section>
+    </section>
 
-      <!--Seccion HERO con imagenes y texto -->
-      
-      <section id="hero">
-        <div class="border__hero"></div>
-        <div class="container__hero">
-          <div class="hero">
-            <h1 class="hero__title">A great app makes your life better</h1>
+    <!--Seccion HERO con imagenes y texto -->
 
-            <p class="hero__p">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+    <section id="hero">
+      <div class="border__hero"></div>
+      <div class="container__hero">
+        <div class="hero">
+          <h1 class="hero__title">A great app makes your life better</h1>
 
-            <h3 class="hero__h3">Download App Now</h3>
-            <img src="./assets/img/downloadgoogle.png" alt="" />
-            <img src="./assets/img/downloadapp.png" alt="" />
-          </div>
-          <div class="hero__img">
-            <img src="./assets/img/telefono-main.png" alt="" />
-          </div>
+          <p class="hero__p">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+            amet sint. Velit officia consequat duis enim velit mollit.
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+
+          <h3 class="hero__h3">Download App Now</h3>
+          <img src="./assets/img/downloadgoogle.png" alt="" />
+          <img src="./assets/img/downloadapp.png" alt="" />
+        </div>
+        <div class="hero__img">
+          <img src="./assets/img/telefono-main.png" alt="" />
         </div>
       </div>
-        </section>
+      </div>
+    </section>
 
 
     <!-- Seccion about -->
@@ -85,218 +90,245 @@
           tempor, ac nunc libero urna, feugiat.
         </p>
 
-        <div class="container__imagenabout">
-          <div>
-            <img src="./assets/img/android-about.svg" alt="" />
+        <div class="hero__container">
+          <div class="container__imagenabout">
+            <div>
+              <img src="./assets/img/android-about.svg" alt="" />
+            </div>
           </div>
 
-          <div class="container__listabout">
-            <div class="card__lista">
-              <img src="./assets/img/about.svg" alt="" />
-              <h3>CREATIVE DESIGN</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
-              </p>
-            </div>
-            <div class="card__lista">
-              <img src="./assets/img/about.svg" alt="" />
-              <h3>EASY TO USE</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
-              </p>
-            </div>
-            <div class="card__lista">
-              <img src="./assets/img/about.svg" alt="" />
-              <h3>BEST USER EXPERIENCE</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
-              </p>
+
+            <div class="hero__container-list">
+              <div class="hero__list-item">
+                <img src="./assets/img/about.svg" alt="" />
+                <h3>CREATIVE DESIGN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                  nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                  Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                </p>
+              </div>
+              <div class="hero__list-item">
+                <img src="./assets/img/about.svg" alt="" />
+                <h3>EASY TO USE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                  nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                  Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                </p>
+              </div>
+              <div class="hero__list-item">
+                <img src="./assets/img/about.svg" alt="" />
+                <h3>BEST USER EXPERIENCE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                  nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                  Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+     
     </section>
 
 
     <!-- Sección de features -->
     <section id="features" class="section-royalblue">
-        <div class="container-all">
-            <h2 class="features__title">APP FEATURES</h2>
+      <div class="container-all">
+        <h2 class="features__title">APP FEATURES</h2>
 
-            <p class="features__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+        <p class="features__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+          Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper
+          risus tempor, ac nunc libero urna, feugiat.</p>
 
-            <div class="features__chat">
-                <img src="./assets/img/chat.svg" alt="">
-                <h5>full free chat</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-
-            <div class="card__container">
-                <article class="card__side">
-                    <div class="card__content">
-                        <img class="card__img" src="./assets/img/featuring-1.svg" alt="">
-                        <h4>UNLIMITER FEATURES</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="card__content">
-                        <img class="card__img" src="./assets/img/featuring-2.svg" alt="">
-                        <h4>UNLIMITER FEATURES</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </article>
-                <article>
-                    <img  src="./assets/img/featuring-central.svg" alt="">
-                </article>
-                <article class="card__side">
-                    <div class="card__content">
-                        <img class="card__img" src="./assets/img/featuring-3.svg" alt="">
-                        <h4>UNLIMITER FEATURES</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="card__content">
-                        <img class="card__img" src="./assets/img/featuring-4.svg" alt="">
-                        <h4>UNLIMITER FEATURES</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </article>
-            </div>
-
-            <div class="features__chat">
-                <img class="card__img" src="./assets/img/Icons/male-telemarketer.svg" alt="">
-                <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+        <div class="features__container-card">
+          <img src="./assets/img/chat.svg" alt="">
+          <h5>full free chat</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+
+        <div class="features__container-main">
+          <article class="features__column">
+            <div class="features__firstcolumn-card">
+              <img class="features__img" src="./assets/img/featuring-1.svg" alt="">
+              <h5>UNLIMITER FEATURES</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="features__firstcolumn-card">
+              <img class="features__img" src="./assets/img/featuring-2.svg" alt="">
+              <h5>AWESOME UI DESIGN</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="features__column">
+            <img class="features__centralcard-img"src="./assets/img/featuring-central.svg" alt="">
+          </article>
+          <article class="features__column">
+            <div class="features__secondcolumn-card">
+              <img class="features__img" src="./assets/img/featuring-3.svg" alt="">
+              <h5>ISO & ANDROID VERSION</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="features__secondcolumn-card">
+              <img class="features__img" src="./assets/img/featuring-4.svg" alt="">
+              <h5>RETINA READY GREAPHICS</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="features__container-card">
+          <img class="features__img" src="./assets/img/Icons/male-telemarketer.svg" alt="">
+          <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
 
 
     </section>
 
     <!--Seccion de our team-->
     <section id="team" class="section-white">
-        <div class="container-all">
-            <h2 class="title_black">OUR REATIVE TEAM</h2>
-            <p class="subtitle_black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+      <div class="container-all">
+        <h2 class="title_black">OUR REATIVE TEAM</h2>
+        <p class="subtitle_black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit
+          vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+          Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
 
-            <div class="container__card">
-                <article class="card-people">
-                    <img class="card-people__img" src="./assets/img/carla.svg" alt="">
-                    <h3>CARLA PRESS</h3>
-                    <h4>APP DEVELOPER</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-socialmedia">
-                        <a href="http://facebook.com"><img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://instagram.com"><img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://youtube.com"></a><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
-                    </div>
-                </article>
-                <article class="card-people">
-                    <img class="card-people__img" src="./assets/img/craig.svg" alt="">
-                    <h3>CRAIG GOUSE</h3>
-                    <h4>UI/UX DESIGNER</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-socialmedia">
-                        <a href="http://facebook.com"><img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://instagram.com"><img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://youtube.com"></a><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
-                    </div>
-                </article>
-                <article class="card-people">
-                    <img class="card-people__img" src="./assets/img/joselyn.svg" alt="">
-                    <h3>JOSELYN SEPTIMUS</h3>
-                    <h4>WEBSITE DEVELOPER</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
-                    <div class="card-socialmedia">
-                        <a href="http://facebook.com"><img class="card-socialmedia__img" src="./assets/img/card-fb.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://instagram.com"><img class="card-socialmedia__img" src="./assets/img/card-ig.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg" alt=""></a>
-                        <span class="card__separator">|</span>
-                        <a href="http://youtube.com"></a><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
-                    </div>
-                </article>
+        <div class="container__card">
+          <article class="card-people">
+            <img class="card-people__img" src="./assets/img/carla.svg" alt="">
+            <h3>CARLA PRESS</h3>
+            <h4>APP DEVELOPER</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.
+            </p>
+            <div class="card-socialmedia">
+              <a href="http://facebook.com" class="card-socialmedia__a"><img class="card-socialmedia__img"
+                  src="./assets/img/card-fb.svg" alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://instagram.com" class="card-socialmedia__a"><img class="card-socialmedia__img"
+                  src="./assets/img/card-ig.svg" alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://youtube.com"><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
             </div>
-
-            <div class="container__cardinfo">
-                <div class="card__moreinfo">
-                    <div><img src="./assets/img/mail.png" alt=""></div>            
-                    <p>info@youremail.com</p>
-                </div>
-                <div class="card__moreinfo">
-                    <div><img src="./assets/img/telefono.png" alt=""></div>
-                    <p>+880 321 655 9985</p>
-                </div>
-                   
-               
+          </article>
+          <article class="card-people">
+            <img class="card-people__img" src="./assets/img/craig.svg" alt="">
+            <h3>CRAIG GOUSE</h3>
+            <h4>UI/UX DESIGNER</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.
+            </p>
+            <div class="card-socialmedia">
+              <a href="http://facebook.com"><img class="card-socialmedia__img" src="./assets/img/card-fb.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://instagram.com"><img class="card-socialmedia__img" src="./assets/img/card-ig.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://youtube.com"><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
             </div>
+          </article>
+          <article class="card-people">
+            <img class="card-people__img" src="./assets/img/joselyn.svg" alt="">
+            <h3>JOSELYN SEPTIMUS</h3>
+            <h4>WEBSITE DEVELOPER</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.
+            </p>
+            <div class="card-socialmedia">
+              <a href="http://facebook.com"><img class="card-socialmedia__img" src="./assets/img/card-fb.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://instagram.com"><img class="card-socialmedia__img" src="./assets/img/card-ig.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://twitter.com"> <img class="card-socialmedia__img" src="./assets/img/card-tw.svg"
+                  alt=""></a>
+              <span class="card__separator">|</span>
+              <a href="http://youtube.com"><img class="card-socialmedia__img" src="./assets/img/card-yt.svg" alt=""></a>
+            </div>
+          </article>
         </div>
+
+
+      </div>
     </section>
-</main>
+  </main>
 
-    <!-- FOOTER SECTION-->
-    <footer id="contact">
-        <div class="footer-container">
-           <div class="footer__contenedor">
-            <div class="footer__container--card">
-                <h2 class="footer__h2">
-                    LOGO
-                </h2>
-                <p class="footer__p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-                </p>
-                <div class="footer__icons">
-                    <a href="http://facebook.com"> <img src="./assets/img/card-fb.svg" alt=""></a>
-                    <a href="http://instagram.com">  <img src="./assets/img/card-ig.svg" alt=""></a>
-                    <a href="http://twitter.com"><img src="./assets/img/card-tw.svg" alt=""></a>
-                    <a href="http://youtube.com"><img src="./assets/img/card-yt.svg" alt=""></a>
-                </div>
-            </div>
+  <!-- FOOTER SECTION-->
+  <footer id="contact">
+    <div class="footer-container">
+    <!--<div class="footer__infocontact">
+        <div class="footer__infocontact-item">
+          <div><img src="./assets/img/mail.png" alt=""></div>
 
-            <div class="footer__container--card">
-                <h2 class="footer__h2">
-                    QUICK LINK
-                </h2>
-                <p class="footer__p"><a href="#about" class="footer__a">About</a></p>
-                <p class="footer__p"><a href="#about" class="footer__a">Features</a></p>
-                <p class="footer__p">Screenshot</p>
-                <p class="footer__p">Blog</p>
-            </div>
-
-            <div class="footer__container--card">
-                <h2 class="footer__h2">
-                    News Letter
-                </h2>
-                <p class="footer__p">
-                    Subscribe our newsletter to get our latest
-                    update & news
-                </p>
-        
-                <div class="footer__search">
-                    <input type="search" class="footer__search-input" placeholder="Your email address">
-                    <label class="footer__search-label"><img src="./assets/img/search.svg" alt=""></label>
-                </div>
-                
-            </div>
-
-        </div> 
-
-        <p class="footer__copyright">Copyright 2021 .Ojjomedia. All Right Reserved.
-        </p>
+          <p>info@youremail.com</p>
         </div>
-    </footer>
-  </body>
+
+        <div class="footer__infocontact-item">
+          <div><img src="./assets/img/telefono.png" alt=""></div>
+          <p>+880 321 655 9985</p>
+        </div>
+    </div>-->
+      <div class="footer__contenedor">
+        <div class="footer__container--card">
+          <h2 class="footer__h2">
+            LOGO
+          </h2>
+          <p class="footer__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae,
+            nullam lobortis enim.
+          </p>
+          <div class="footer__icons">
+            <a href="http://facebook.com"> <img src="./assets/img/card-fb.svg" alt=""></a>
+            <span class="card__separator">|</span>
+            <a href="http://instagram.com"> <img src="./assets/img/card-ig.svg" alt=""></a>
+            <span class="card__separator">|</span>
+            <a href="http://twitter.com"><img src="./assets/img/card-tw.svg" alt=""></a>
+            <span class="card__separator">|</span>
+            <a href="http://youtube.com"><img src="./assets/img/card-yt.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="footer__container--card">
+          <h2 class="footer__h2">
+            QUICK LINK
+          </h2>
+          <p class="footer__p"><a href="#about" class="footer__a">About</a></p>
+          <p class="footer__p"><a href="#about" class="footer__a">Features</a></p>
+          <p class="footer__p">Screenshot</p>
+          <p class="footer__p">Blog</p>
+        </div>
+
+        <div class="footer__container--card">
+          <h2 class="footer__h2">
+            News Letter
+          </h2>
+          <p class="footer__p">
+            Subscribe our newsletter to get our latest
+            update & news
+          </p>
+
+          <div class="footer__search">
+            <input type="search" class="footer__search-input" placeholder="Your email address">
+            <label class="footer__search-label"><img src="./assets/img/search.svg" alt=""></label>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="footer__copyright">Copyright 2021 .Ojjomedia. All Right Reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>

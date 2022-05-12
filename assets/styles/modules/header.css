@@ -20,6 +20,10 @@ header {
   justify-content: space-between;
 }
 
+.header__redes a{
+  margin-left: 20px;
+}
+
 .header__info p {
   display: inline;
 }
