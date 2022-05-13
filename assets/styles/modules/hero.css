@@ -80,6 +80,7 @@ h3 {
     width: 80%;
     left: 0;
     overflow: hidden;
+    margin-bottom: 50px;
   }
 
   .hero__card h1{

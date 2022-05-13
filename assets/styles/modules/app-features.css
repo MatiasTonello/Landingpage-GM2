@@ -140,6 +140,7 @@
   .features__container-card p {
     text-align: start;
     width: 100%;
+    margin: auto;
   }
 
   .subtitle_black {

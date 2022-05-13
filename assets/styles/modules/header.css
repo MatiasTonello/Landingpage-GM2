@@ -11,8 +11,8 @@ header {
 }
 
 /* Menu hamburgesa */
-.header__hamburger{
-  display:none;
+.header__hamburger {
+  display: none;
   width: 267px;
   height: 356px;
   background-color: #ffffff;
@@ -21,7 +21,7 @@ header {
   width: 100vw;
 }
 
-.header__hamburger-ul{
+.header__hamburger-ul {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -31,21 +31,21 @@ header {
   list-style: none;
 }
 
-.header__hamburger-li{
+.header__hamburger-li {
   text-transform: uppercase;
   font-size: 20px;
   padding: 10px 0;
 }
 
-.header__close{
+.header__close {
   align-self: flex-end;
 }
 
-.header__close i{
+.header__close i {
   color: var(--royal-blue);
 }
 
-.header__iconhamburger{
+.header__iconhamburger {
   padding: 20px;
   display: none;
 }
@@ -62,7 +62,7 @@ header {
   justify-content: space-between;
 }
 
-.header__redes-a{
+.header__redes-a {
   margin-left: 20px;
 }
 
@@ -97,15 +97,13 @@ header {
   padding: 20px;
 }
 
-.header__link:hover{
+.header__link:hover {
   text-decoration: underline;
   color: blue;
 }
 
-.header__button:hover{
+.header__button:hover {
   background-color: rgb(175, 59, 156);
-
-
 }
 
 .header__centerlogo {
@@ -116,13 +114,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .header__logo-img {
   min-width: 90px;
 }
-
 
 .header__button {
   padding: 8px;
@@ -131,7 +127,7 @@ header {
   width: 250px;
 }
 
-.header__btndownload{
+.header__btndownload {
   display: none;
   padding: 20px 0px;
   min-width: 76px;
@@ -139,60 +135,55 @@ header {
   width: 30%;
 }
 
-.header__btndownload a{
+.header__btndownload a {
   font-size: 10px;
 }
 
-
 @media (max-width: 767px) {
-
-  .header__container-contact{
+  .header__container-contact {
     display: none;
   }
 
-  .header__menu{
+  .header__menu {
     flex-wrap: nowrap;
     padding: 10px 0;
   }
 
-  .header__first-ul{
-    display:none;
-  }
-
-  .header__link{
+  .header__first-ul {
     display: none;
   }
 
-  .header__iconhamburger{
-    display:block;
+  .header__link {
+    display: none;
+  }
+
+  .header__iconhamburger {
+    display: block;
     width: 30%;
   }
 
-  .header__btndownload{
+  .header__btndownload {
     display: block;
   }
 
-  .header__iconhamburger i{
-    color:black;
+  .header__iconhamburger i {
+    color: black;
   }
 
-  .header__logo-img{
+  .header__logo-img {
     overflow: hidden;
   }
 
-  .header__second-ul{
-    display:none;
+  .header__second-ul {
+    display: none;
   }
 
-  .header__centerlogo{
+  .header__centerlogo {
     width: 33%;
     padding: 35px;
   }
 
-  
-  .header__logo-img img{
+  .header__logo-img img {
     min-width: 90px;
   }
-
-
 }
