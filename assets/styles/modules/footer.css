@@ -12,6 +12,7 @@ footer {
 .footer-container {
   width: 80%;
   margin: auto;
+  position: relative;
   
 }
 
@@ -124,10 +125,8 @@ footer {
   padding: 15px 0;
   border-radius: 15px;
   position: absolute;
-  left: 0;
-  right:0;
   margin: auto;
-  top: 4450px;
+  top: -53px;
 }
 
 .footer__infocontact-item {
@@ -160,7 +159,6 @@ footer {
 
   .footer__container{
     flex-direction: column;
-    
   }
 
   .footer__container-item{
@@ -176,8 +174,10 @@ footer {
 
 
   .footer__infocontact{
-    top: 7950px;
     flex-direction: column;
+    top:-107px;
+    left: 40px;
+    
   }
 
   .footer__infocontact-item{
