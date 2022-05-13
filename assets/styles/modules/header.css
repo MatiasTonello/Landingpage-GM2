@@ -10,6 +10,7 @@ header {
   color: #fff;
 }
 
+/* Menu hamburgesa */
 .header__hamburger{
   display:none;
   width: 267px;
@@ -44,6 +45,13 @@ header {
   color: var(--royal-blue);
 }
 
+.header__iconhamburger{
+  padding: 20px;
+  display: none;
+}
+
+/* Fin menu Hamburguesa */
+
 .container__header {
   width: 80%;
   margin: auto;
@@ -54,7 +62,7 @@ header {
   justify-content: space-between;
 }
 
-.header__redes a{
+.header__redes-a{
   margin-left: 20px;
 }
 
@@ -71,14 +79,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   align-items: center;
 }
 
 .header__menu ul {
   list-style: none;
-  margin-left: 25px;
 }
 
 .header__menu li {
@@ -122,12 +128,7 @@ header {
   padding: 8px;
   background-color: var(--royal-blue);
   color: var(--white);
-  width: 33%;
-}
-
-.header__iconhamburger{
-  padding: 20px;
-  display: none;
+  width: 250px;
 }
 
 .header__btndownload{
@@ -135,7 +136,7 @@ header {
   padding: 20px 0px;
   min-width: 76px;
   min-height: 34px;
-  width: 33%;
+  width: 30%;
 }
 
 .header__btndownload a{
