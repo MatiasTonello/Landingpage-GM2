@@ -3,12 +3,10 @@ let buttonclose;
 
 function mostrar(){
     document.getElementsByClassName("header__hamburger")[0].style.display= "block";
-    document.getElementsByClassName("border__hero")[0].style.display="none";
 }
 
 function ocultar(){
     document.getElementsByClassName("header__hamburger")[0].style.display= "none";
-    document.getElementsByClassName("border__hero")[0].style.display=newLocal;
 }
 
 window.onload=function(){
