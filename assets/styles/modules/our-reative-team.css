@@ -46,6 +46,7 @@
   .ourteam__card p {
     text-align: center;
     color: var(--grey);
+    padding: 20px;
   }
   
   .card-socialmedia {
