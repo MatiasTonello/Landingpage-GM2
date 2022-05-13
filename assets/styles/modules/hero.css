@@ -4,31 +4,35 @@
  * ========================================
  */
 
- 
+
 .container__hero {
-  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-top: 150px;
+  margin-top: 80px;
   width: 100%;
 }
 
-.hero {
+.hero__card {
   background-color: #ffffff;
-  width: 500px;
-  height: 480px;
-  padding: 10px;
+  max-width: 570px;
+  max-height: 430px;
+  margin-top: 137px;
   position: relative;
-  left: 60px;
+  left: 150px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .border__hero {
   position: absolute;
-  width: 500px;
-  height: 480px;
-  top: 250px;
-  right: 600px;
+  width: 570px;
+  height: 520px;
+  top: 300px;
+  right: 580px;
   border: 18px solid #7572ff;
   box-sizing: border-box;
 }
@@ -36,7 +40,6 @@
 .hero__img img {
   width: 500px;
   height: 725px;
-  position: relative;
   left: 120px;
   bottom: 100px;
 }
@@ -67,6 +70,57 @@ h3 {
 @media (max-width: 767px) {
   .container__hero{
     flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    
   }
+
+  .hero__card{
+    width: 80%;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .hero__card h1{
+    font-size: 20px;
+    margin: 4px 0;
+  }
+
+  .hero__card p{
+    font-size: 16px;
+  }
+
+  .hero__h3{
+    font-size: 18px;
+  }
+
+  .border__hero{
+    top: 238px;
+    right: 2px;
+    position: absolute;
+    width: 319px;
+    height: 420px;
+  }
+
+  .hero__container-buttons{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero__container-buttons img{
+    width: 40%;
+  }
+
+  .hero__img{
+    margin-top: 20px;
+    align-items: center;
+    width: 70%;
+  }
+
+  
+.hero__img img {
+  max-width: fit-content;
+  max-height: 525px;
+}
 }

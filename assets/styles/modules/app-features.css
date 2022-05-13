@@ -90,6 +90,9 @@
   padding: 10px 0;
 }
 
+.features__container-card img, .features__img{
+  width: 50px;
+}
 
 
 /* MOBILE */

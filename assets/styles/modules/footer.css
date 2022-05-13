@@ -58,17 +58,17 @@ footer {
 
 .footer__search {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .footer__search-input {
   border: 1px solid #5956e9;
   border-radius: 6px 6px;
   outline: none;
-  padding: 6px 12px;
+  padding: 0 62px 0px 9px;
   height: 50px;
-  width: 100%;
 
 }
 
@@ -79,8 +79,12 @@ footer {
   color: white;
   background-color: #5956e9;
   border-radius: 6px 6px;
+  top: 3px;
+  bottom: 3px;
+  margin: auto;
+  display: block;
   position: absolute;
-  right: 185px;
+  right: 15px;
 }
 
 
@@ -168,13 +172,13 @@ footer {
 
   .footer__search-label{
     position: relative;
-    right: initial;
+   
   }
 
  
 
   .footer__infocontact{
-    top: 7789px;
+    top: 8350px;
     flex-direction: column;
   }
 
@@ -200,5 +204,16 @@ footer {
   .footer__copyright-p {
     font-size: 12px;
     font-weight: 300;
+  }
+
+  .footer__search-label{
+    right: 60px;
+    top: -2px;
+  }
+
+  .footer__search-input {
+ 
+    height: 60px;
+    width: 100%;
   }
 }
