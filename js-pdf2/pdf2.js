@@ -99,9 +99,25 @@ estacionDelAño(dia, mes);*/
 
 /*1. Escribir la tabla de 2 en el body */
 
-let i = 0;
+/*let i = 0;
 do{
     document.write("2 " + " * " + i + " = " + 2*i);
     document.write("<br>");
     i++;
 }while(i<= 40);
+*/
+
+/*2. Leer numeros enteros y mostrar la tabla de multiplicar de ese número en la consola, hasta que ingrese un 0*/
+
+let valorEntero;
+
+i=0;
+do{
+    valorEntero = prompt("Ingrese el número del que desea saber su tabla", "");
+    if(valorEntero != 0){
+        for(let i= 0; i<=10; i++){
+            console.log(valorEntero + " * " + i + " = " + valorEntero * i);
+        }
+    }
+} while (valorEntero != 0);
+
