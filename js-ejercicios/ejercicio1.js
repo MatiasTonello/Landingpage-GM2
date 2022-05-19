@@ -4,7 +4,9 @@ otra restar un array de números con un
 numero */
 
 function addition(numero, array){
-    let result = numero + parseInt(array.join(""));
+
+  
+   let result = numero + parseInt(array.join(""));
     let arrayToString = result.toString().split("");
     let newArray = [];
     for(let i = 0; i<arrayToString.length; i++){
