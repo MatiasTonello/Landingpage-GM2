@@ -9,19 +9,37 @@ Evaluar si el string dado es un
 palindromo.*/
 
 function esPalindromo(palabra){
-    let newStr = palabra.replace(/[\W_]/g, "").toLowerCase();
-    let reverse = newStr.split("").reverse();
+    let stringWithoutSpace = palabra.replace(/[\W_]/g, "").toLowerCase();
+    let reverseString = stringWithoutSpace.split("").reverse();
     let podriaSerPalindromo = false;
-    let esPalindromo = false;
+   let esPalindromo = false;
+   /*let arrayCaracteresRepetidos = palabra.filter(caracters => caracter)*/
+    let cadenaSinRepetidos = stringWithoutSpace.split('');
 
+        const unicos = cadenaSinRepetidos.filter((valor, indice) => {
+            return cadenaSinRepetidos.indexOf(valor) != indice
+            });
+
+        const uniqueArray = cadenaSinRepetidos.filter(value => unicos.indexOf(value) == -1)
 
     
 
+  
 
-    if(newStr === reverse.join('')){
+    if(uniqueArray.length < 1){
+        podriaSerPalindromo = true;
+    }
+    
+
+    if(stringWithoutSpace === reverseString.join('')){
         esPalindromo = true;
     }
-     /*newStr == reverse.join('') ? esPalindromo = true : esPalindromo = false;*/
 
-    return esPalindromo || podriaSerPalindromo;
+    if (esPalindromo || podriaSerPalindromo){
+        return "La frase es o podría ser palindromo";
+    } else {
+        return "La frase no es palindromo";
+    }
 }
+
+

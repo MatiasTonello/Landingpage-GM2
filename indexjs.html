@@ -17,10 +17,11 @@
         <form id="ejer-form">
         <label for="ejercicios">Selecciona un ejercicio</label>
         <select name="ejercicios" id="ejercicios">
-            <option value="1">Adicion y resta</option>
-            <option value="2">Paridades</option>
-            <option value="3">Palindromo</option>
-            <option value="4">Números romanos</option>
+            <option value="1">Seleccione un ejercicio</option>
+            <option value="2">Adicion y resta</option>
+            <option value="3">Paridades</option>
+            <option value="4">Palindromo</option>
+            <option value="5">Números romanos</option>
         </select>
 
         <div id="div__info">
@@ -28,6 +29,15 @@
         </div>
         <label class="input__function" for="miinput"></label>
         <input type="textarea" name="miinput" id="miinput">
+        <div id="label__addition">
+            <label for="add">Ingrese el número que desea restar o agregar</label>
+            <input type="number" name="add" id="add">
+            <input type="radio" id="addcbox" name="addorrest" value="add">
+            <label for="addcbox">Sumar</label><br>
+            <input type="radio" id="restcbox" name="addorrest" value="rest">
+            <label for="restcbox">Restar</label><br>
+            
+        </div>
 
         <button type="submit" id="enviar">Enviar</button>
         </div>

@@ -3,10 +3,9 @@ Crear una función que permita sumar y
 otra restar un array de números con un
 numero */
 
-function addition(numero, array){
+function addition(array, numero){
 
-  
-   let result = numero + parseInt(array.join(""));
+    let result =  numero + parseInt(array.join(""));
     let arrayToString = result.toString().split("");
     let newArray = [];
     for(let i = 0; i<arrayToString.length; i++){
@@ -15,7 +14,7 @@ function addition(numero, array){
     return newArray;
 }
 
-function rest(numero, array){
+function rest(array, numero){
     let result =parseInt(array.join("") - numero );
     let newArray = [];
     if(result > 0){

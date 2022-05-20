@@ -27,5 +27,4 @@ function parity(array){
         }
     }
     return pareja;
-
 }

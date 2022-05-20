@@ -50,3 +50,7 @@ label, input, select{
     width: 40%;
     align-self: center;
 }
+
+#label__addition{
+    display: none;
+}
