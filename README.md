@@ -1,10 +1,10 @@
 <h1> Landing page GM2 Academmy </h1>
 
-<h3> Tecnologías aplicadas: </h3>
+<h3> Applied technologies </h3>
 
 <ul>
   <li> Html </li>
   <li> Css </li>
 </ul>
 
-<p> Maquetado realizado para GM2 Academy, en la cuál debimos especializarnos en el diseño de una web utilizando las distintas herramientas que nos ofrece CSS. Flexbox, pseudoclases, pseudoelemento, uso de metodología BEM, scaffolding. </p>
+<p>Layout made for GM2 Academy, in which we had to specialize in the design of a website using the different tools offered by CSS. Flexbox, pseudoclasses, pseudoelement, use of BEM methodology, scaffolding.. </p>
